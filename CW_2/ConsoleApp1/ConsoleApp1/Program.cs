@@ -13,3 +13,6 @@ static int getAverage(int[] nums)
 
     return sum / nums.Length;
 }
+int[] nums = {1,2,3,4,5};
+var average = getAverage(nums);
+Console.WriteLine(average);
