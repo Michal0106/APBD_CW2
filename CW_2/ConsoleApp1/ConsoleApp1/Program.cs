@@ -16,3 +16,13 @@ static int getAverage(int[] nums)
 int[] nums = {1,2,3,4,5};
 var average = getAverage(nums);
 Console.WriteLine(average);
+
+static int getMaxValue(int[] nums)
+{
+    var max = int.MinValue;
+    foreach (var num in nums)
+    {
+        if (num > max) max = num;
+    }
+    return max;
+}
