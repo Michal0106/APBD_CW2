@@ -5,13 +5,13 @@ Console.WriteLine("Modyfikacja 3");
 
 static int getAverage(int[] nums)
 {
-    var sum = 0;
+    var sum_konflikt_main = 0;
     foreach (var num in nums)
     {
-        sum += num;
+        sum_konflikt_main += num;
     }
 
-    return sum / nums.Length;
+    return sum_konflikt_main / nums.Length;
 }
 int[] nums = {1,2,3,4,5};
 var average = getAverage(nums);
